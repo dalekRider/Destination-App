@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wanderlust</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans" rel="stylesheet">
+  <!-- This project was created by completing the Wanderlust project through CodeCademy's JavaScript Course. The information retrieved and populated on this page used the APIXU API for weather and the FourSquare API for attractions. This page is a modified version of my original solution to the project and was created for addtional practice.
+ -->
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Let's Go!</h2>
+    </header>
+    <main>
+      <h1>Where are you playing today?</h1>
+      <form autocomplete="off">
+        <input type="text" id="city">
+        <button id="button" type="submit">Submit</button>
+      </form>
+    </main>
+    <div class="container">
+    <div id="destination">
+
+    </div>
+    <div class="sectiontitle">
+      <h2>WEATHER</h2>
+    </div>
+    <section id="weather">
+
+        <div class="weather" id="weather1">
+
+        </div>
+        <div class="weather" id="weather2">
+
+        </div>
+        <div class="weather" id="weather3">
+
+        </div>
+        <div class="weather" id="weather4">
+
+        </div>
+
+    </section>
+    <div class="sectiontitle">
+      <h2>TOP ATTRACTIONS</h2>
+    </div>
+    <section id="venues">
+      <div class="venue" id="venue1">
+
+      </div>
+      <div class="venue" id="venue2">
+
+      </div>
+      <div class="venue" id="venue3">
+
+      </div>
+      <div class="venue" id="venue4">
+
+      </div>
+      <div class="venue" id="venue5">
+
+      </div>
+      <div class="venue" id="venue6">
+
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <p>Weather API powered by: <a href="https://www.apixu.com">APIXU</a> || Attractions API powered by: <a href="https://developer.foursquare.com/docs/api/venues/search">Four Square</a></p>
+      <p class="copy"><a href="http://www.twofistedmedia.com">Johnathan Mercier</a> - <a href="">Learn More</a></p>
+    </div>
+  </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
