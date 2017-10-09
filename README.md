@@ -3,7 +3,7 @@ This project was created by completing the Wanderlust project through CodeCademy
 
 After tweaking this project a bit I also realize this may be a perfect use case for CSS Grid. Fallback support should be pretty simple. I'll probably redo the layout more at some point. This goes with the list of projects that will get upgrades for sleeker looks and better accessibility.
 
-resources:
+resources: <br>
 http://www.codecademy.com <br>
 https://developer.mozilla.org/en-US/docs/Web/JavaScript <br>
 https://www.apixu.com <br>
