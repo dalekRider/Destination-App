@@ -78,8 +78,8 @@ function renderForecast(days) {
       '<h2> Low: ' + days[index].day.mintemp_f + '</h2>' +
       '<p> sunrise: ' + days[index].astro.sunrise + '</p>' +
       '<p> sunset: ' + days[index].astro.sunset + '</p>' +
-      '<img src="http://' + days[index].hour[0].condition.icon +
-      '" class="weathericon" />' +
+      // '<img src="http://' + days[index].hour[0].condition.icon +
+      // '" class="weathericon" />' +
       '<p>' + days[index].day.condition.text + '</p>' +
       '<h2>' + weekDays[(new Date(days[index].date)).getDay()] + '</h2>';
     $day.append(weatherContent);
